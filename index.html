@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Video with MCQ Questions</title>
+</head>
+<body>
+    <!-- Video element -->
+    <video id="myVideo" width="600" controls>
+        <source src="Data Privacy.mp4" type="video/mp4">
+    </video>
+
+    <!-- Question Container for MCQs -->
+    <div id="questionContainer" style="display: none; border: 1px solid #ccc; padding: 20px;">
+        <p id="questionText"></p>
+        <form id="answerForm">
+            <input type="radio" name="answer" value="A" id="optionA">
+            <label for="optionA" id="labelA"></label><br>
+            <input type="radio" name="answer" value="B" id="optionB">
+            <label for="optionB" id="labelB"></label><br>
+            <input type="radio" name="answer" value="C" id="optionC">
+            <label for="optionC" id="labelC"></label><br>
+            <button type="button" onclick="submitAnswer()">Submit</button>
+        </form>
+    </div>
+
+    <!-- Results Container -->
+    <div id="resultsContainer" style="display: none;">
+        <h3>Your Results</h3>
+        <ul id="resultsList"></ul>
+    </div>
+
+    <!-- Link JavaScript file (optional if you create a separate file) -->
+    <script src="interactive-video.js"></script>
+</body>
+</html>

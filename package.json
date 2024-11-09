@@ -1,0 +1,17 @@
+{
+  "name": "interactive-video",
+  "version": "1.0.0",
+  "main": "interactive-video.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.3"
+  }
+}

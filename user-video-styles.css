@@ -1,0 +1,14 @@
+.container-class{
+    border-color: yellow;
+    border-width: 5px;
+    display: flex;
+}
+
+.container-class-left{
+    flex-direction: row;
+    float: left;
+    width: 65%;
+}
+.container-class-right{
+    width: 35%;
+}
